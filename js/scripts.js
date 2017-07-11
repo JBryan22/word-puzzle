@@ -13,5 +13,6 @@ $(function(){
     }
     sentArr = sentArr.join('');
     $(".output p").text(sentArr);
+    $("#your-string").val('');
   });
 });
