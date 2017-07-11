@@ -16,3 +16,6 @@ $(function(){
     $("#your-string").val('');
   });
 });
+
+//regex solution
+//var sentArr = $("#your-string").val().replace(/[aeiou]/g, '-');
